@@ -86,13 +86,24 @@ Evaluate detection accuracy across more road conditions.
 Introduce improved event validation and duplicate detection.    
 Extend the mapping interface and reporting capabilities.    
 
-PROJECT EVIDENCE
+## Project Evidence
 
-Hardware prototype: hardware/prototype.jpg    
-Circuit diagram: hardware/circuit-diagram.png    
-Cloud dashboard: results/cloud-dashboard.png    
-Map output: results/map-output.png    
-Project overview: docs/project-overview.pdf    
+### Hardware
+- Hardware prototype: [`hardware/prototype.png`](hardware/prototype.png)
+- Circuit diagram: [`hardware/circuit-diagram.png`](hardware/circuit-diagram.png)
+- Hardware components: [`hardware/components-list.md`](hardware/components-list.md)
+
+### System Design
+- System block diagram: [`docs/block-diagram.md`](docs/block-diagram.md)
+- Detection flowchart: [`docs/flowchart.png`](docs/flowchart.png)
+- Project overview: [`docs/project-overview.md`](docs/project-overview.md)
+
+### Results and Demonstration
+- Live pothole detection data: [`results/cloud-dashboard.jpeg`](results/cloud-dashboard.jpeg)
+- GPS-based map visualization: [`results/map-output.jpeg`](results/map-output.jpeg)
+- Automated email notification: [`results/email-alert.jpeg`](results/email-alert.jpeg)
+- Hardware road-testing setup: [`results/detection-test.jpeg`](results/detection-test.jpeg)
+- Test documentation: [`results/test-results.md`](results/test-results.md)   
 
 Author
 
