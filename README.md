@@ -12,9 +12,7 @@ Manual road inspection is time-consuming and makes it difficult to continuously 
 OBJECTIVES
 
 Detect abnormal road vibrations using an MPU6050 accelerometer.
-
 Capture geographical coordinates using a GPS Neo-6M module.
-
 Process sensor data using the ESP32 microcontroller.
 
 Transmit detected events over Wi-Fi.
