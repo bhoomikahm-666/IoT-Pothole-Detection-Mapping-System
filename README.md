@@ -29,53 +29,53 @@ Generate email notifications for detected pothole events.
 
 HARDWARE COMPONENTS
 
-ESP32 microcontroller, 
-MPU6050 accelerometer and gyroscope, 
-GPS Neo-6M module, 
-TP4056 battery charging module, 
-MT3608 boost converter, 
-Lithium-ion , 
-Connecting wires and associated hardware. 
+ESP32 microcontroller,  
+MPU6050 accelerometer and gyroscope,  
+GPS Neo-6M module,  
+TP4056 battery charging module,  
+MT3608 boost converter,  
+Lithium-ion ,  
+Connecting wires and associated hardware.   
 
 SOFTWARE AND TECHNOLOGIES
 
-Arduino IDE and embedded C/C++ for ESP32 firmware, 
-I2C communication for the MPU6050, 
-Serial communication for GPS data, 
-Wi-Fi connectivity, 
-ThingSpeak and Google Sheets for data storage and monitoring, 
-Django for backend processing, 
-Web-based map visualization. 
+Arduino IDE and embedded C/C++ for ESP32 firmware,  
+I2C communication for the MPU6050,  
+Serial communication for GPS data,  
+Wi-Fi connectivity,  
+ThingSpeak and Google Sheets for data storage and monitoring,  
+Django for backend processing,  
+Web-based map visualization.   
 
 SYSTEM ARCHITECTURE
 
-The MPU6050 continuously measures acceleration and vibration.
-The ESP32 evaluates sensor readings against predefined threshold conditions.
+The MPU6050 continuously measures acceleration and vibration.    
+The ESP32 evaluates sensor readings against predefined threshold conditions.    
 When an abnormal vibration is detected, the GPS module provides the current coordinates.
-The ESP32 transmits the event data through Wi-Fi.
+The ESP32 transmits the event data through Wi-Fi.    
 Cloud storage and backend processing organize the collected records and filter duplicates.
-The processed location data is displayed on a web-based map.
-Email notifications provide additional awareness of detected events.
+The processed location data is displayed on a web-based map.    
+Email notifications provide additional awareness of detected events.    
 
 RESULTS AND TESTING
 
-The project report documents testing under different road conditions. The system detected many pothole events, captured corresponding GPS coordinates and transmitted the data for visualization.
+The project report documents testing under different road conditions. The system detected many pothole events, captured corresponding GPS coordinates and transmitted the data for visualization.    
 False detections could occur on speed breakers and uneven road surfaces. Threshold-based filtering was used to reduce unnecessary detections.
 
 APPLICATIONS
 
-Road-condition monitoring
-Smart-city infrastructure projects
-Pothole location mapping
-IoT-based transportation monitoring
-Embedded systems and sensor-integration demonstrations
+Road-condition monitoring    
+Smart-city infrastructure projects    
+Pothole location mapping    
+IoT-based transportation monitoring    
+Embedded systems and sensor-integration demonstrations    
 
 FUTURE ENCHANCEMENTS
 
-Improve detection using calibrated thresholds and sensor-data filtering.
-Evaluate detection accuracy across more road conditions.
-Introduce improved event validation and duplicate detection.
-Extend the mapping interface and reporting capabilities.
+Improve detection using calibrated thresholds and sensor-data filtering.    
+Evaluate detection accuracy across more road conditions.    
+Introduce improved event validation and duplicate detection.    
+Extend the mapping interface and reporting capabilities.    
 
 PROJECT EVIDENCE
 
