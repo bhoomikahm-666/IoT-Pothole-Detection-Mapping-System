@@ -57,10 +57,19 @@ Cloud storage and backend processing organize the collected records and filter d
 The processed location data is displayed on a web-based map.    
 Email notifications provide additional awareness of detected events.    
 
-RESULTS AND TESTING
+## Results and Demonstration
 
-The project report documents testing under different road conditions. The system detected many pothole events, captured corresponding GPS coordinates and transmitted the data for visualization.    
-False detections could occur on speed breakers and uneven road surfaces. Threshold-based filtering was used to reduce unnecessary detections.
+### 1. Live Pothole Detection Data
+The web interface displays recorded pothole events with latitude, longitude, timestamps and email notification status.
+
+### 2. Automated Email Notifications
+The system generates email alerts containing the detected location coordinates and a Google Maps link to help identify the reported location.
+
+### 3. GPS-Based Map Visualization
+The custom web interface visualizes recorded geographical locations using map markers, helping users identify reported road locations.
+
+### 4. Hardware Prototype
+The assembled ESP32-based hardware prototype integrates the sensing, GPS and power supply components for road-condition monitoring and field testing.
 
 APPLICATIONS
 
