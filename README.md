@@ -79,11 +79,11 @@ Extend the mapping interface and reporting capabilities.
 
 PROJECT EVIDENCE
 
-Hardware prototype: hardware/prototype.jpg
-Circuit diagram: hardware/circuit-diagram.png
-Cloud dashboard: results/cloud-dashboard.png
-Map output: results/map-output.png
-Project overview: docs/project-overview.pdf
+Hardware prototype: hardware/prototype.jpg    
+Circuit diagram: hardware/circuit-diagram.png    
+Cloud dashboard: results/cloud-dashboard.png    
+Map output: results/map-output.png    
+Project overview: docs/project-overview.pdf    
 
 Author
 
