@@ -12,32 +12,51 @@ Manual road inspection is time-consuming and makes it difficult to continuously 
 OBJECTIVES
 
 Detect abnormal road vibrations using an MPU6050 accelerometer.
+
 Capture geographical coordinates using a GPS Neo-6M module.
+
 Process sensor data using the ESP32 microcontroller.
+
 Transmit detected events over Wi-Fi.
+
 Store and monitor data using ThingSpeak and Google Sheets.
+
 Use Django backend processing to filter duplicate records.
+
 Visualize detected pothole locations on a custom web map.
+
 Generate email notifications for detected pothole events.
 
 HARDWARE COMPONENTS
 
 ESP32 microcontroller
+
 MPU6050 accelerometer and gyroscope
+
 GPS Neo-6M module
+
 TP4056 battery charging module
+
 MT3608 boost converter
+
 Lithium-ion battery
+
 Connecting wires and associated hardware
 
 SOFTWARE AND TECHNOLOGIES
 
 Arduino IDE and embedded C/C++ for ESP32 firmware
+
 I2C communication for the MPU6050
+
 Serial communication for GPS data
+
 Wi-Fi connectivity
+
 ThingSpeak and Google Sheets for data storage and monitoring
+
 Django for backend processing
+
 Web-based map visualization
 
 SYSTEM ARCHITECTURE
